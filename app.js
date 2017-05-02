@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 // models loading 
-var models_path = __dirname + 'app/models/';
+var models_path = __dirname + '/app/models/';
 
 // 路径加载函数，加载各模型的路径,所以可以直接通过mongoose.model加载各模型 这样即使模型路径改变也无需更改路径
 var walk = function (path) {
