@@ -3,3 +3,21 @@
 @import '_var';
 @import '_header';
 @import '_footer';
+
+/*
+layout 
+*/
+
+%center {
+  max-width: 1200px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.container {
+  @extend %center;
+}

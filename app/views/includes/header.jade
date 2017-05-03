@@ -1,6 +1,36 @@
 header
-  nav
-    a(href="/") 首页
-    a(href="") 收藏网站
-    a(href="") 赞助
-  a.login(href="#") 登录
+  .container
+    nav
+      a(href="/") 首页
+      a(href="") 网络技术
+      a(href="") 关于老苏
+      a(href="") 收藏网站
+      a(href="") 赞助
+      //- a(href="") 后台
+    a.login(href="#") 登录
+//-banner
+.banner
+  .item
+    a(href="/", title="title")  
+      img(src="http://suzhihui.github.io/content/images/pc18.jpg", alt="")
+main.container
+  //- 左侧
+  section.main
+    //- 搜索 & 面包屑
+    .main-box
+      //- 面包屑
+      .main-crumbs
+      //- 搜索
+      .main-search
+
+    //- 日志列表
+    .main-box.main-list
+      .main-t
+      .main-con
+  //- 右侧
+  aside
+    .side-box
+      .side-t
+      .side-con
+
+    
