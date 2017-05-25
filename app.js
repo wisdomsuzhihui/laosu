@@ -79,4 +79,5 @@ require('./route/router')(app); // 路由控制
 
 app.listen(port); // 服务器监听端口
 
+// 完成
 console.log('douban started on port:' + port);
